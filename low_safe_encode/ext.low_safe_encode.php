@@ -4,9 +4,9 @@
 * Low Safe Encode Extension class
 *
 * @package			low-safe_encode-ee2_addon
-* @version			2.0
+* @version			2.1
 * @author			Lodewijk Schutte ~ Low <low@loweblog.com>
-* @link				http://loweblog.com/freelance/article/ee-safe-encode-extension/
+* @link				http://loweblog.com/software/low-safe-encode/
 * @license			http://creativecommons.org/licenses/by-sa/3.0/
 */
 class Low_safe_encode_ext
@@ -30,7 +30,7 @@ class Low_safe_encode_ext
 	*
 	* @var	string
 	*/
-	var $version = '2.0';
+	var $version = '2.1';
 
 	/**
 	* Extension description
@@ -51,7 +51,14 @@ class Low_safe_encode_ext
 	*
 	* @var	string
 	*/
-	var $docs_url = 'http://loweblog.com/freelance/article/ee-safe-encode-extension/';
+	var $docs_url = 'http://loweblog.com/software/low-safe-encode/';
+	
+	/**
+	* NSM Addon Updater link
+	*
+	* @var	string
+	*/
+	var $versions_xml = 'http://loweblog.com/software/low-safe-encode/feed/';
 
 	// --------------------------------------------------------------------
 
